@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+    color: rgb(233, 221, 221);
+    
+}
+
+
+.container{
+    display:flexbox;
+    background-color: rgb(31, 30, 30);
+    height: 490px;
+    width: 310px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 50px auto;
+    border: 3px solid rgb(39, 38, 38);
+}
+
+
+.row{
+    padding: 5px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row img{
+    
+    height: 50px;
+    width: 50px;
+    background: radial-gradient(circle, red, yellow);
+    /* margin: 5px ;
+    padding: 5px auto; */
+    border-radius: 50%;
+    border: 2px solid transparent;
+    
+} 
+
+
+#we img{
+    height: 200px;
+    width: 270px;
+    float: left;
+    margin: 20px; 
+    padding: 2px; 
+    border: 5px double rgb(248, 243, 243);
+    border-radius: 10px;
+} 
+
+
+.me{
+    float: left;
+    /* margin: 5px;
+    padding: 2px; */
+    background-color: rgb(20, 20, 20);
+}
+
+.he{
+    float: right;
+    margin: 5px;
+    padding: 2px;
+    background-color: rgb(20, 20, 20);
+}
+
+#they{
+    margin: 20px ;
+    /* padding: 5px; */
+
+} 
+
+#she1{
+    color: rgb(235, 35, 35);
+}
+
+#she2{
+    color: rgb(172, 166, 166);
+}
+
+#she3{
+    color: rgb(0, 132, 255);
+}
+
+
+.container p{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
