@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="icon" href="image/ico.jpeg" type="image/jpeg" sizes="16*16">
+</head>
+<body>
+    <h1 title="this is hrading">html form</h1>
+    <form>
+        <label for="">First Name :</label>
+        <input type="text" placeholder="First name" title="first name">
+        <label>Password :</label> <!--(label is used to represtent input)-->
+        <input type="password" placeholder="password"><br>
+        <label>Gender :</label>
+        <input type="radio" value="Female" name="Gender">female
+        <input type="radio" value="male" name="Gender">male<br>
+        Fruits:
+        <select>
+            <option>Apple</option>
+            <option >Bpple</option>
+            <option >Cpple</option>
+            <option >Dpple</option>
+            <option >Epple</option>
+        </select><br>
+        <button>Submit</button>
+    </form>
+    <hr>
+    <form>
+        <h6>Sign Up</h6>
+        <h1>It's quick and easy</h1>
+        <label for="">First name</label>
+        <input type="text" placeholder="first name" name="first name" required="fill this out">
+        <label for="">Surname</label>
+        <input type="text" placeholder="Surname"><br>
+        <label for="">Mobile Number or email address</label>
+        <input type="text" required="fill this out" placeholder="mobile number or email"><br>
+        
+        <!-- <h6>Gender</h6> -->
+        <label for="">Gender</label>
+        <input type="radio"value="Female" name="Gender">female
+        <input type="radio" value="Male" name="Gender">male
+        <input type="radio" value="Custom" name="Gender">custom<br>
+        
+        date of birth?
+        <select name="" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <select name="" id="">
+            <option value="jan">jan</option>
+            <option value="feb">feb</option>
+            <option value="march">march</option>
+            <option value="april">april</option>
+            <option value="may">may</option>
+        </select>
+        <select name="" id="">
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+        </select><br>
+        <textarea cols="30" rows="10" placeholder="comments"></textarea>
+        <button type="button">button</button><br>
+        <button>Sign Up</button>
+    </form><br>
+    <br>
+
+
+    <!-- <label for="ice-cream-choice">Choose a flavor:</label>
+    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+    <datalist id="ice-cream-flavors">
+        <option value="Chocolate"></option>
+        <option value="Coconut"></option>
+        <option value="Mint"></option>
+        <option value="Strawberry"></option>
+        <option value="Vanilla"></option>
+    </datalist> -->
+
+
+    <label for="animal">Choose categories</label>
+    <input list="animal" id="animalinput" name="animal"/>
+    <datalist id="animal">
+        <optgroup label="pet animals">
+            <option >cat</option>
+            <option >dog</option>
+            <option >parrot</option>
+            <option >fish</option>
+        </optgroup>
+        <optgroup label="wild animals">
+            <option >tiger</option>
+            <option >lion</option>
+            <option >crocodile</option>
+            <option >python</option>
+        </optgroup>
+    </datalist>
+  
+    
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta chatset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-space=1.0">
+    <link rel="stylsheet" href="">
+    <title>z-index</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container{
+            border: 1px solid black;
+            background-color: #a39797;
+            height: 50vh;
+            width: 23vw;
+        }
+
+        .container div{
+            margin: 30px;
+            padding: 2px;
+        }
+
+        #a1 {
+            background-color: blue;
+            border: 2px solid black;
+            height: 80px;
+            width: 80px;
+            position: absolute; 
+            z-index: 1;
+            top: 15px;
+            left: 50px;
+
+        }
+
+        #a2 {
+            background-color: red;
+            height: 80px;
+            width: 80px;
+            position: absolute; 
+            top: 70px; 
+            left: 10px; 
+            z-index: 2;
+            border: 2px solid black;
+        }
+
+
+        #a3{
+            background-color: yellow;
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            top: 115px;
+            left: 80px;
+            z-index: 3;
+            border: 2px solid black;
+        }
+
+
+        #a4{
+            background-color: green;
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            top: 60px;
+            left: 120px;
+            z-index: 4;
+            border: 2px solid black;
+        }
+
+        #a5{
+            background-color: black;
+            height: 80px;
+            width: 80px;
+            left: 180px;
+            position: absolute;
+            z-index: 5;
+            top: 10px;
+            border: 2px solid black;
+        }
+
+        #a6{
+            background-color: white;
+            height: 80px;
+            width: 80px;
+            left: 150px;
+            top: 160px;
+            position: absolute;
+            z-index: 6;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="a1">box1</div>
+        <div id="a2">box2</div>
+        <div id="a3">box3</div>
+        <div id="a4">box4</div>
+        <div id="a5">box5</div>
+        <div id="a6">box6</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./image/images_dow.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.content{
+    padding: 20px;
+    text-align: center;
+    color: #0f100f;
+    font-size: 30px;
+    letter-spacing: 5px;
+    
+    
+}
+
+.content h1{
+    background-color: rgb(166, 141, 140);
+    padding: 1px 1px;
+    border-radius: 5px;
+    
+}
+
+.box{
+    background-color: rgb(11, 11, 11);
+    padding: 20px;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+
+.box img{
+    
+    width: 100%;
+    border: 2px solid whitesmoke;
+    height: 50%;
+   
+    border-radius: 12px;
+  
+}
+
+
+

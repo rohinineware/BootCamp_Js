@@ -1,0 +1,149 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment grid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: black;
+        }
+
+        .container{
+            width: 30%;
+            margin: 45px auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: 50px 100px 100px 50px;
+            gap: 10px;
+            grid-template-areas: 
+            "header header header"
+            "sidebar box1 box1"
+            "sidebar box2 box3"
+            "footer footer footer";
+        }
+
+        .header{
+            background-color: rgb(31, 0, 167);
+            grid-area: header;
+        }
+
+        .sidebar{
+            background-color: rgba(32, 32, 196, 0.945);
+            grid-area: sidebar;
+        
+        }
+
+        .box1{
+            background-color: rgb(74, 15, 211);
+            grid-area: box1;
+        }
+
+        .box2{
+            background-color: rgb(43, 12, 155);
+            grid-area: box2;
+        }
+
+        .box3{
+            background-color: rgb(35, 16, 209);
+            grid-area: box3;
+        }
+
+        .footer{
+            background-color: rgb(29, 66, 190);
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items header">header</div>
+        <div class="items sidebar">sidebar</div>
+        <div class="items box1">box1</div>
+        <div class="items box2">box2</div>
+        <div class="items box3">box3</div>
+        <div class="items footer">footer</div>
+    </div>
+</body>
+</html>
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            height: 100vh;
+            width: 50vh;
+            margin: 45px auto;
+            display: grid; 
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+            gap: 1rem;
+            grid-template-areas: 
+            "header header header"
+            "sidebar box1 box2 "
+            "box3 footer footer"; 
+
+        }
+
+        .header{
+            background-color: red;
+            grid-area: header;
+         
+        }
+
+        .sidebar{
+            background-color: yellow;
+            grid-area: sidebar;
+        }
+
+        .box1{
+            background-color: green;
+            grid-area: box1;
+        }
+
+        .box2{
+            background-color: pink;
+            grid-area: box2;
+        }
+
+        .box3{
+            background-color: blue;
+            grid-area: box3;
+        }
+
+        .footer{
+            background-color: aqua;
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item header">header</div>
+        <div class="item sidebar">sidebar</div>
+        <div class="item box1">box1</div>
+        <div class="item box2">box2</div>
+        <div class="item box3">box3</div>
+        <div class="item footer">footer</div>
+    </div>
+</body>
+</html> -->

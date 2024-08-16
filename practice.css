@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kode+Mono:wght@400..700&display=swap');
+
+#mi {
+    border: 5px solid black;
+    background:radial-gradient(red,black,yellow,green,pink,orange,grey);
+    margin:0;
+    padding:0;
+    width: 100vh;
+    height: 100vh;
+    border-style: double;
+    text-align: center;
+    border-radius: 0% 0% 100% 100%;  
+    
+}
+
+
+a{
+    margin-left: 10vh;
+    color: brown;
+    font-size: 30px;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+p::first-letter{
+    color: chartreuse;
+    font-size: 100px;
+}
+
+p::first-line{
+    color: blue;
+}
+
+p{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    
+} 
+
+
+
+
+

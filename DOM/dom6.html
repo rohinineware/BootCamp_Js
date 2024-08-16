@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom6</title>
+    <style>
+        .message{
+            color: red;
+            font-size: 20px;
+            border: 1px solid black;
+        }
+
+        .message::first-letter{
+            color: blue;
+            font-size: 30px;
+        }
+
+        .box{
+            width: 100px;
+            height: 150px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+          
+    </style>
+</head>
+<body>
+    
+    <!-- <p class="message">Lorem ipsum dolor sit amet.</p> -->
+
+    <!-- <div class="box"> --><!-- </div> -->
+
+    <!-- <a href="https://www.google.com" id="link">Google</a> -->
+
+    <input type="text" id="input">
+
+
+    <script>
+
+        //getcomputedstyle()
+        //let message=document.querySelector(".message")
+
+        //let style=getComputedStyle(message);
+
+        //console.log(style.color);
+
+
+        //className property()
+        //let message=document.querySelector(".message")
+        //console.log(message.className);
+
+      
+        //add new class name
+
+        //message.classList.add("newclass")
+        //console.log(message.className )
+
+
+        //add ek se jada classname
+
+        //message.classList.add("newclass","newclass1" ,"newclass2")
+        //console.log(message.className )
+
+
+        //remove classname
+
+        //message.classList.remove("newclass2")
+        //console.log(message.className )
+
+        //cheak 
+
+        //let cheak=message.classList.contains("newclass");
+        //console.log(cheak);
+
+
+
+        //offsetHeight and offsetwidth
+
+        //let box=document.querySelector('.box');
+        //let width=box.offsetWidth;
+        //let height=box.offsetHeight;
+        //console.log(width,height);
+
+
+        //clientwidth and clientheight
+
+        //let box=document.querySelector('.box');
+        //let height=box.clientHeight;
+        //let width=box.clientWidth;
+        //console.log(width,height);
+
+
+        //preventDefault();
+        //let link=document.querySelector("#link");
+        //link.addEventListener('click',function(e){
+        //    console.log('link clicked');
+        //    e.preventDefault();
+        //})
+
+
+        //let input=document.querySelector('#input')
+        //input.addEventListener('keydown',function(e){
+        //    console.log(e.key,e.code);
+        //})
+
+
+        //input.addEventListener('keyup',function(e){
+        //    console.log(e.key,e.code);
+        //})
+
+
+        //input.addEventListener('keypress',function(e){
+        //    console.log(e.key,e.code);
+        //})
+
+
+        
+        // focus, blur events
+
+        // let input = document.querySelector('#input');
+
+        // input.addEventListener('focus', function(e) {
+        //     // console.log('Input focused');
+        //     e.target.style.background = 'yellow';
+        // });
+
+        // input.addEventListener('blur', function(e) {
+        //     // console.log('Input blurred');
+        //     e.target.style.background = '';
+        // });
+
+
+        // Event delegation
+
+        // let home = document.querySelector('#home');
+        // home.addEventListener('click', function(e) {
+        //     console.log('Home clicked');
+        // });
+
+        // let about = document.querySelector('#about');
+        // about.addEventListener('click', function(e) {
+        //     console.log('About clicked');
+        // });
+
+        // let services = document.querySelector('#services');
+        // services.addEventListener('click', function(e) {
+        //     console.log('Services clicked');
+        // });
+
+        /*let list = document.querySelector('#list');
+
+        list.addEventListener('click', function(e) {
+            let target = e.target;
+            if(target.id === 'home') {
+                console.log('Home clicked');
+            } else if(target.id === 'about') {
+                console.log('About clicked');
+            } else if(target.id === 'services') {
+                console.log('Services clicked');
+            }
+        });
+*/
+        // Homework - Write the above code using switch case
+
+        // What is event target?
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+
+form{
+    text-align: center;
+}
+
+
+input{
+    padding: 0.6rem;
+    border-radius: 9px;
+    border: 5px solid blue;
+    width: 12.5rem;
+}
+
+.btn{
+    color: white;
+    background-color: blue;
+    padding: 10px 5rem;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.removebtn{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding:0.5rem auto;
+    margin: 1rem;
+    border-color: white;
+    width: 10rem;
+}
+
+table{
+    margin: 50px auto;
+
+}
+
+th{
+    background-color: rgb(49, 79, 248);
+    border-radius: 5px;
+    padding: 10px 90px;
+    color: white;
+}
+
+th,td{
+    border: 1px solid black;
+    
+}

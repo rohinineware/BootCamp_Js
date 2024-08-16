@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <link rel="stylesheet" href="">
+        <title>Document object model</title>
+        <style>
+            .container{
+                display: flex;
+            }
+            .box{
+                width: 50px;
+                height: 50px;
+                border: 2px solid green;
+                margin: 10px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container" id="red">
+            <div class="box">box1</div>
+            <div class="box">box2</div>
+            <div class="box">box3</div>  <!--yes-->
+            <div class="box">box4</div>
+            <div class="box">box5</div>
+        </div>
+
+        <!-- <table>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+            </tr>
+            <tr>
+                <th>rohini</th>
+                <th>0</th>
+            </tr>
+        </table> -->
+        <script src="./dom.js">
+            document.title="DOM";
+            console.log(document.title);
+            //console.log(document.body);
+
+            //document.body.style.backgroundColor="lightblue";
+        </script>
+    </body>
+</html>

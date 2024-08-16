@@ -1,0 +1,535 @@
+
+
+
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+
+nav {
+    background-color: rgb(35, 35, 59);
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    margin: 5 10px;
+
+}
+
+#i{
+    float: left;
+    color: white; /* Adding color for better visibility */
+}
+
+#me{
+    font-weight: bold;
+    font-size: 20px;
+    transition: color;
+}
+
+#me a:hover{
+    color: greenyellow;
+}
+
+#myself {
+    float: right;
+}
+
+button {
+    margin-left: 5px; /* Adding some margin between buttons */
+    text-decoration: black;
+    border-radius: 10% 10% ;
+    font-weight: bold;
+}
+
+.container{
+    height: 550px;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+body h2{
+    font-weight: bold;
+    color: rgb(3, 226, 255);
+    text-align: center;
+    
+}
+
+.class1 {
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(57, 248, 9);
+  
+}
+
+ 
+.div1 #a1{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 251, 0);
+    background-color: blueviolet;
+    margin: auto;                                                     /* auto directly element la center anto */
+    border-radius: 10%;
+}
+
+
+
+.div1 #a2{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 251, 3);
+    background-color: rgb(180, 51, 4);
+    margin: auto;
+    border-radius: 10%;
+}
+
+.div1 #a3{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 0);
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.class2 {
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(57, 248, 9);
+}
+
+.div2 #b1{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 3);
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.div2 #b2{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 238, 0);
+    background-color: rgb(180, 51, 4);
+    position: absolute;
+    border-radius: 10%;
+}
+
+.div2 #b3{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 3);
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.class3 {
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(57, 248, 9);
+}
+
+.div3 #c1{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 238, 3);
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.div3 #c2{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 0);
+    background-color: rgb(180, 51, 4);
+    position: absolute;
+    right: 50px;
+    border-radius: 10%;
+}
+
+.div3 #c3{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 251, 0);
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 10%;
+}
+
+
+#container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.class4 {
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(57, 248, 9);
+  
+}
+
+ 
+.div4 #d1{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 251, 0);
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 10%;
+}
+
+
+
+.div4 #d2{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 251, 3);
+    background-color: rgb(180, 51, 4);
+    margin: auto;
+    border-radius: 10%;
+}
+
+.div4 #d3{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 0);
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.class5 {
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(57, 248, 9);
+}
+
+.div5 #e1{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 3);
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.div5 #e2{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 238, 0);
+    background-color: rgb(180, 51, 4);
+    position: relative;
+    top: 40px;
+    left: 120px;
+    border-radius: 10%;
+}
+
+.div5 #e3{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 3);
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.class6{
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(57, 248, 9);
+}
+
+.div6 #f1{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 238, 3);
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.div6 #f2{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 0);
+    background-color: rgb(180, 51, 4);
+    border-radius: 10%;
+    position: absolute;
+    right: 215px;
+}
+
+.div6 #f3{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 251, 0);
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.container3{
+    height: 350px;
+    width: 300px;
+    margin: auto;
+    overflow:auto;
+    border: 2px solid rgb(255,251,0);
+
+}
+
+#a11{
+    background-color: rgb(180, 59, 22);
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255,251,0);
+    border-radius: 10%;
+    position: absolute;
+    float: left;
+    margin-left: 90px;
+}
+
+
+.container4{
+    background-color: rgb(65, 65, 85);
+    height: 1070px;
+    width: 100%;
+   
+}
+
+#g1{
+    margin: auto;
+    background-color:blueviolet;
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 0);
+    border-radius: 10%;
+
+}
+
+#g2{
+    margin: auto;
+    background-color:blueviolet;
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 0);
+    border-radius: 10%;
+}
+
+#g3{
+    margin: auto;
+    background-color:blueviolet;
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 0);
+    border-radius: 10%;
+}
+
+#g4{
+    margin: auto;
+    background-color:blueviolet;
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 0);
+    border-radius: 10%;
+}
+
+.div8{
+    display: inline-flex;
+    float: left;
+    margin-left: 240px;
+}
+
+.div8 div{
+    background-color:blueviolet;
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 230, 0);
+    border-radius: 10%;
+}
+
+
+.div9{
+    display: inline-flex;
+    float: left;
+    margin-left: 240px;
+}
+
+.div9 div{
+    background-color: blueviolet;
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255,230,0);
+    border-radius: 10%;
+}
+
+.div10 #j1{
+    display: inline-flex;
+    float: left;
+    margin-left: 240px;
+    background-color: blueviolet;
+    border-radius: 10%;
+    border: 2px solid rgb(255,230,0);
+    height: 80px;
+    width:80px;
+}
+
+.div10 #j2{
+    display: inline-flex;
+    float: right;
+    margin-right: 240px;
+    background-color: blueviolet;
+    border-radius: 10%;
+    border: 2px solid rgb(255,230,0);
+    height: 80px;
+    width:80px;
+}
+
+
+.div11 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    clear: both;       /*Clear any floats before .div11 */
+}
+
+.box {
+    background-color: blueviolet;
+    border-radius: 9%;
+    border: 2px solid rgb(255,230,0);
+    height: 80px;
+    width: 80px;
+}
+
+#k1 { 
+    order: -2; /* Change the order as needed */
+}
+
+#k2 { 
+    order: -1; 
+}
+
+#k3 { 
+    order: 0; 
+    width: 528px;
+}
+
+#k4 { 
+    order: 1; 
+}
+
+#k5 { 
+    order: 2; 
+}
+
+.div12{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#l1{
+    background-color: blueviolet;
+    border-radius: 9%;
+    border: 2px solid rgb(255,230,0);
+    height: 80px;
+    width: 80px;
+}
+
+#l2{
+    background-color: blueviolet;
+    border-radius: 9%;
+    border: 2px solid rgb(255,230,0);
+    height: 80px;
+    width: 80px;
+}
+
+#l3{
+    background-color: blueviolet;
+    border-radius: 9%;
+    border: 2px solid rgb(255,230,0);
+    height: 80px;
+    width: 80px;
+}
+
+#l4{
+    background-color: blueviolet;
+    border-radius: 9%;
+    border: 2px solid rgb(255,230,0);
+    height: 80px;
+    width: 80px;
+}
+
+#l5{
+    background-color: blueviolet;
+    border-radius: 9%;
+    border: 2px solid rgb(255,230,0);
+    height: 80px;
+    width: 80px;
+}
+
+#l6{
+    background-color: blueviolet;
+    border-radius: 9%;
+    border: 2px solid rgb(255,230,0);
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(70, 119, 119);
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.foot a:hover{
+    color: white;
+}
+
+#btn10{
+    position: absolute;
+    top: 315%; right: 0px;
+    font-weight: bold;
+    background-color: red;
+    height: 30px;
+    width: 50px;
+    text-decoration: none;
+
+}
+
+#btn10 a:hover{
+    color: black;
+}
